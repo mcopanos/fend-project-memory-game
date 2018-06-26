@@ -1,20 +1,16 @@
 # Memory Game Project
 
-## Table of Contents
+This is a simple memory game project for my front-end Udacity course. The object of the game is to flip cards and match them. This game is also going to test your memory in a fun way.
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+## Getting Started
 
-## Instructions
+To get your copy of this game is really simple. Just fork the repository and clone your new repository to your local machine. Now just open the html file and start playing.
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
 
-To get started, open `js/app.js` and start building out the app's functionality
+## What To Know
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+This project was written in HTML, CSS and Vanilla JS. Feel free to add new features to your repository and make your own. Maybe try writing it in jQuery just to get some practice.
 
-## Contributing
+## Authors
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+Basic HTML and CSS styling was provided by Udacity. JavaScript and animations provided by Mike Copanos.
