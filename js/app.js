@@ -126,6 +126,7 @@ function removeAnimation(e){
     if (e.propertyName !==  'transform') return;
     this.classList.remove('animation');
 }
+
 // Event listener to remove the remove animation
 function animationListener() {
     const cards = document.querySelectorAll('.card');
@@ -168,6 +169,7 @@ function modalDisplay() {
     newDiv.innerHTML = `It took you ${timer} seconds and ${moves} moves to finish <br>
     with a ${star} star rating `;
 }
+
 // Add stars
 function addStars() {
     let  stars = document.querySelectorAll('.stars li i');
@@ -180,17 +182,17 @@ function addStars() {
 //  Event to trigger modal
 function triggerModal() {
     let display = document.querySelector('.modal');
-   setTimeout( display.classList.toggle('none'),2000);
+    setTimeout( display.classList.toggle('none'),2000);
  }
 
 //  Clear cards
 function clearMatches() {
-let card = document.querySelectorAll('.deck li');
-for (let i = 0; i < card.length;  i++){
+    let card = document.querySelectorAll('.deck li');
+    for (let i = 0; i < card.length;  i++){
     card[i].classList.remove('match');
     card[i].classList.remove('open');
     card[i].classList.remove('show');
-}
+    }
 }
 
 //  Shuffle cards 
@@ -207,6 +209,7 @@ function clearStats() {
 function clearBoard() {
     deck.innerHTML = ' ';
 }
+
 //  Restart game
 let restart = document.getElementById('restartBtn');
 restart.addEventListener('click', function() {
@@ -218,10 +221,10 @@ restart.addEventListener('click', function() {
     timer = 0;
     startTimer();
     animationListener();
-   moves = 0;
-   matches = 0;
-   triggerModal();
-   console.log(openCards);
+    moves = 0;
+    matches = 0;
+    triggerModal();
+    console.log(openCards);
 })
 
 //  Close button
