@@ -14,7 +14,6 @@ let  stars = document.querySelectorAll('.stars li i');
 shuffleCards();
 startTimer();
 
-
 //  For loop to display cards
 function makeCards() {
     for (let i = 0; i < myCards.length; i++) {
@@ -25,6 +24,7 @@ function makeCards() {
     }
 }
 makeCards();
+
 // Shuffle function from http://stackoverflow.com/a/2450976
 function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
